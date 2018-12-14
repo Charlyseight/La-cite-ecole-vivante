@@ -1,0 +1,7 @@
+.main__title:before{
+  @include titlebefore;
+}
+
+.main__title{
+  @include  title;
+}

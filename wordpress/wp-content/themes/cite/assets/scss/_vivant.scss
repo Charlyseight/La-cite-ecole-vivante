@@ -1,0 +1,137 @@
+//FILARIANE
+
+.filariane__vivant{
+  background-color: $rouge;
+  margin-bottom: 10em;
+  color: $pink;
+}
+
+
+.filariane__vivant .page:before{
+  background-color: $pink;
+  width: 125%;
+  top: 12px;
+  left: -233px;
+}
+
+.filariane__vivant .page{
+  margin-left: 38em;
+}
+
+/////VIVANT
+
+.vivant__title:before{
+  background-color: $pink;
+}
+
+.vivant__title{
+  position: relative;
+  top: 150px;
+  left: 240px;
+  display: inline-block;
+}
+
+
+.vivant__text{
+  font-size: 1.4em;
+  line-height: $lineheight;
+  width: 30%;
+  margin-top: 15em;
+  margin-left: 18em;
+}
+
+.vivant{
+  position: relative;
+  margin-bottom: 15em;
+}
+
+.vivant__img{
+  position: absolute;
+  top: 5px;
+  left: 780px;
+}
+
+//OBJECTIFS
+
+.objectifs{
+  background-color: $kaki;
+  padding: 2em;
+  color: $pink;
+  display: flex;
+
+}
+
+.objectifs__number{
+  font-size: 10em;
+}
+
+.objectifs__number:before{
+  content:"";
+  width: 50%;
+  display: block;
+  height: 2px;
+  position: relative;
+  top: 60px;
+  left: 110px;
+  background-color: $pink;
+}
+
+.objectifs__text{
+ display: flex;
+  flex-direction: column;
+  margin: 3em;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.objectifs__para{
+  font-size: 1.4em;
+  line-height: $lineheight;
+}
+
+/////ACTION
+
+.action{
+  margin-top: 15em;
+}
+
+.action__img{
+  margin-left: 25em;
+  width: 40%;
+}
+
+.action__text{
+  background-color: $pink;
+  padding: 3em;
+  width: 40%;
+  position: relative;
+  bottom: 150px;
+  left: 600px;
+}
+
+.action__para{
+  color: black;
+  font-size: 1.4em;
+  line-height: $lineheight;
+}
+
+.action__para:nth-child(2n){
+  margin-top: 2em;
+}
+
+//ENCART VIVANT
+
+.contactEncart__vivant{
+  margin-bottom: 10em;
+  text-align: center;
+}
+
+
+.contactEncart__vivant__para{
+  font-size: 1.8em;
+  line-height: $lineheight;
+  width: 60%;
+  margin: 0 auto 2em;
+  text-align: center;
+}
+

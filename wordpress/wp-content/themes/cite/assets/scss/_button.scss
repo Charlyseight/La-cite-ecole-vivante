@@ -1,0 +1,11 @@
+.button{
+  @include button;
+}
+
+.button:after{
+  @include buttonafter;
+}
+
+.button:hover:after{
+  @include buttonhover;
+}

@@ -1,0 +1,182 @@
+/////////ICONES,MOTS
+
+.mots-cle{
+  font-family: $fontbis;
+  font-size: 1.8em;
+  margin-bottom: 1.8em;
+}
+
+.mots{
+  display: flex;
+  margin: 8em 0em;
+  justify-content: space-around;
+}
+
+.mots__img{
+  width: 20%;
+  height: auto;
+  margin-bottom: 1.8em;
+}
+.mots__demo,.mots__libre,.mots__loyal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.mots__text{
+  font-size: 1.4em;
+  line-height: $lineheight;
+}
+
+///////////ENCART_PROJET
+
+.encartText__accueil__projet{
+  font-size: 1.4em;
+  line-height: $lineheight;
+  width: 29%;
+  background-color: $kaki;
+  padding: 1.8em;
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 550px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.encart__accueil__projet{
+  position: relative;
+}
+
+.encartImg__accueil__projet{
+  margin-left: 20em;
+}
+
+.encartLink__accueil__projet{
+  //display: inline-block;
+  position: absolute;
+  right: 315px;
+  bottom: 10px;
+}
+
+//////TEAM ENCART ACCUEIL
+
+.teamEncart__accueil__img{
+  width: 100%;
+  height: auto;
+}
+
+.teamEncart__accueil__para{
+  font-size: 1.8em;
+  line-height: $lineheight;
+}
+
+.teamEncart__accueil__para:nth-child(2n){
+  margin-bottom: 1em;
+}
+.teamEncart__accueil{
+  text-align: center;
+}
+
+.teamEncart__accueil__text{
+  margin-top: 4em;
+}
+
+.teamEncart__accueil__link{
+  margin-bottom: 3em;
+}
+
+//////EVENT
+.event{
+margin: 0em 3em;
+}
+.event__title:before{
+  content:"";
+  display: block;
+  width: 2%;
+  height: 5px;
+  position: relative;
+  left : -20px;
+  top: 10px;
+  transform: rotate(90deg);
+  background-color: $kaki;
+}
+
+.event__title{
+  font-size: 1.8em;
+  margin: 3em 0em 3em 1em;
+  text-transform: uppercase;
+}
+
+.eventEncart__accueil{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 8em;
+}
+
+.eventEncart__accueil__contact{
+  text-align: center;
+}
+
+.eventEncart__accueil__para--contact{
+  font-size: 1.8em;
+  line-height: $lineheight;
+}
+
+.eventEncart__accueil__para--contact:nth-child(2n){
+  margin-bottom: 1em;
+}
+
+.eventEncart__accueil__link{
+  margin-bottom: 5em;
+}
+
+
+.eventEncart__accueil__img{
+  display: block;
+}
+
+.eventEncart__accueil__date{
+  font-size: 1.8em;
+  font-weight: 100;
+  display: block;
+  margin-bottom: .3em;
+  margin-top: 1.3em;
+}
+
+.eventEncart__accueil__endroit{
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $rouge;
+  font-size: 1.8em;
+  margin-bottom: .5em;
+}
+
+.eventEncart__accueil__para--contact{
+  font-size: 1.4em;
+  line-height: $lineheight;
+}
+
+
+
+//////Partenaires
+
+.partner{
+  margin-top: 6em;
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.partner__content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.partner__title:before{
+left: 580px;
+}
+
+
+

@@ -1,0 +1,17 @@
+.filariane{
+@include filariane;
+text-align: center;
+}
+
+.cat{
+@include cat;
+}
+
+.page{
+@include page
+}
+
+/*
+.page:before{
+  @include filarianeLine;
+}*/

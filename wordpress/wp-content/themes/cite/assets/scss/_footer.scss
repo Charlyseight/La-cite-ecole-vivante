@@ -1,0 +1,61 @@
+.footer{
+  background-color: $kaki;
+  position: relative;
+
+}
+
+.footer__logo{
+  opacity: .1;
+  display: block;
+  margin: 0 auto;
+  padding: 3em 0em 0em 0em;
+  width: 28%;
+
+}
+
+.navSecond__title{
+  font-size: 1.8em;
+  //font-family: $fontbis;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  margin-bottom: 1.5em;
+  font-weight: 100;
+}
+
+.navSecond__list{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+
+.navSecond__link{
+  color: white;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  display: flex;
+  padding: .8em 0em;
+  font-weight: 100;
+}
+
+.footer_coordonnes{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__link, .footer__address{
+  margin: 1em 0em 1.8em 0em;
+  color: white;
+  font-size: 1.4em;
+  padding: 1em 0em;
+  font-weight: 100;
+  /*position: relative;
+  bottom: 30px;*/
+}
+
+

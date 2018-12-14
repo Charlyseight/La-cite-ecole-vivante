@@ -1,0 +1,67 @@
+.filariane__projet .page{
+  //margin-left: 36em;
+  width: 100%;
+}
+
+.filariane__projet{
+  color: $kaki;
+  background-color: $pink;
+}
+
+.filariane__projet .page:before{
+  width: 12.5%;
+  top: 13px;
+  left: -195px;
+}
+
+.projet__title:before{
+  background-color: $rouge;
+}
+
+.projet__title{
+  margin-left: 8.5em;
+  margin-top: 7em;
+}
+
+.projet__text{
+  font-size:1.4em;
+  line-height: $lineheight;
+  margin: 3em 10em;
+}
+
+.projet__img{
+  display: block;
+  margin: 0 auto;
+  width: 78%;
+}
+
+.projet__img--duo{
+  text-align: center;
+}
+
+.encart__projet__team{
+  margin-top: 15em;
+}
+
+.encartImg__projet__team{
+  margin-left: 60em;
+}
+
+.encartText__projet__team{
+  background-color: $rouge;
+  font-size: 1.8em;
+  line-height: $lineheight;
+  width: 30%;
+  color: white;
+  padding: 1.5em;
+  font-weight: 100;
+  position: relative;
+  left: 250px;
+  bottom: 195px;
+}
+
+.encartLink__projet__team{
+  position: relative;
+  left: 250px;
+  bottom: 160px;
+}

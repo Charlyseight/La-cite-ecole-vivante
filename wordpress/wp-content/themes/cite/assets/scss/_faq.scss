@@ -1,0 +1,67 @@
+
+//FILARIANE
+
+.filariane__faq{
+  background-color: $kaki;
+  color: $pink;
+}
+
+.filariane__faq .page{
+  text-align: right;
+  margin-left: 34.5em;
+  width: 10%;
+}
+
+.filariane__faq .page:before{
+  background-color: $pink;
+  top: 11px;
+  left: -90px;
+  width: 88%;
+}
+
+//FAQ
+
+.faq__title{
+  margin-left: 5.5em;
+  margin-top: 8em;
+}
+
+.faq__title:before{
+  background-color: $rouge;
+}
+
+.contactEncart__faq__para{
+  margin: 6em auto 2em;
+  font-size: 1.8em;
+}
+
+.contactEncart__faq{
+  text-align: center;
+  margin: 4em 0em;
+}
+
+.contactEncart__faq__link{
+  margin: 0 auto;
+}
+
+.faq{
+  margin: 4em 9em 15em;
+  width: 60%;
+}
+
+.faq__question--bold{
+  font-weight: 700;
+  font-size: 1.8em;
+  display: block;
+  margin-bottom: .5em;
+  line-height: $lineheight;
+}
+
+.faq__para{
+  font-size: 1.4em;
+  line-height: $lineheight;
+  margin-bottom: 2em;
+}
+
+
+

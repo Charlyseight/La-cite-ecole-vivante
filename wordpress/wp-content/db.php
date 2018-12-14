@@ -1,0 +1,1 @@
+/Users/Charlyscount/Documents/School/3e infographie/Projet Web/cite wordpress/wordpress/wp-content/plugins/query-monitor/wp-content/db.php

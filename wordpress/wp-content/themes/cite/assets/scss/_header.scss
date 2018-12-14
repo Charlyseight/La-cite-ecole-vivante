@@ -1,0 +1,89 @@
+////////////////HEADER
+
+body{
+  font-size: 62.5%;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hidden{
+  display: none;
+}
+
+.header__logo{
+  width: 20%;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+header{
+  position: relative;
+}
+.menu{
+  display: flex;
+  position: absolute;
+  top: 40px;
+  right: 100px;
+}
+
+.menu-item{
+  margin: 1em;
+  padding: .8em;
+  display: inline-block;
+}
+
+.sub-menu{
+  display: none;
+  background-color: white;
+  margin-top: .8em;
+  padding: 1em 0em 2em;
+  position: absolute;
+  top: 40px;
+  //margin-top: 40px;
+  width: 230px;
+}
+
+.menu-item:hover>.sub-menu{
+  display: inherit;
+}
+
+.menu-item>a{
+  text-decoration: none;
+  font-size: 1.8em;
+  color:black;
+  display: inline-block;
+}
+
+.sub-menu a{
+  font-size: 1.4em;
+}
+
+.slogan{
+  font-size: 1.8em;
+  margin-left: 5.5em;
+  position: relative;
+  bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: $kaki;
+}
+
+.caroussel__img{
+  width: 100%;
+  margin-top: 2em;
+}
+
+.menu-item>a:after{
+  content:"";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color:$rouge;
+  position: relative;
+  top:8px;
+  transition: .3s;
+}
+
+.menu-item>a:hover:after{
+  width: 100%;
+  transition: .3s;
+}
