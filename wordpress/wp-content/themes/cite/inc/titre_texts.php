@@ -1,4 +1,4 @@
-<?php if(have_rows('encart')): while (have_rows('encart')): the_row(); ?>
+
     <h2 class="main__title faq__title">
         <?= get_sub_field('titre'); ?>
     </h2>
@@ -10,4 +10,3 @@
             </p>
         <?php endwhile; endif; ?>
     </div>
-<?php endwhile; endif; ?>

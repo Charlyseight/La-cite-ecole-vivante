@@ -10,8 +10,10 @@
         <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
             <div class="pop__div">
                 <a href="<?php the_permalink(); ?>" class="pop__link">
-                    <?php $img=get_field('image_team'); ?>
-                    <img src="<?= $img["img"]; ?>" alt="<?= $img["alt"]; ?>" class="pop__img">
+                    <?php if(have_rows('image_team')): while (have_rows('image_team')): the_row(); ?>
+                        <?php $img = get_sub_field('img'); ?>
+                        <?= wp_get_attachment_image($img['ID'], 'cite-big',"", ["class" => "pop__img"]); ?>
+                    <?php endwhile; endif; ?>
                     <p class="pop__para">
                         <?= get_field('nom'); ?>
                     </p>

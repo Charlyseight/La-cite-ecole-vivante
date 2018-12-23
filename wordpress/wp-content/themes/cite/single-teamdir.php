@@ -26,13 +26,15 @@
     </div>
 </header>
 <div class="single_team">
-    <?php $img = get_field('image_team'); ?>
-    <img src="<?= $img["img"]; ?>" alt="<?= $img["alt"]; ?>" class="single_img">
+    <?php if(have_rows('image_team')): while (have_rows('image_team')): the_row(); ?>
+        <?php $img = get_sub_field('img'); ?>
+        <?= wp_get_attachment_image($img['ID'], 'cite-big',"", ["class" => "single_img"]); ?>
+    <?php endwhile; endif; ?>
     <p class="single_nom">
         <?= get_field('nom'); ?>
     </p>
     <p class="single_text">
-        <?= get_field('text'); ?>
+        <?= get_field('text_team'); ?>
     </p>
 </div>
 <br class="clear">

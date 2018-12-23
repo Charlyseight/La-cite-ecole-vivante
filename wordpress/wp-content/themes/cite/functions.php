@@ -56,3 +56,9 @@ add_action('init', 'cite_register_custom_post_types');
 function remove_fields(){
     remove_post_type_support('page', 'editor');
 }
+
+function cite_register_image_sizes() {
+    add_image_size('cite-thumbnail', 614, 350, true);
+    add_image_size('cite-big', 1232, 822, true);
+}
+add_action('after_setup_theme', 'cite_register_image_sizes');

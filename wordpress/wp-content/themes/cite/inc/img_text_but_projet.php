@@ -1,4 +1,4 @@
-<?php if (have_rows('encart')): while (have_rows('encart')): the_row(); ?>
+
     <div class="encart<?=get_sub_field('select'); ?> ">
         <h2 class="hidden">Découvrir nos projets</h2>
 
@@ -10,4 +10,4 @@
         <?php $but=get_sub_field('but'); ?>
         <a class="button encartLink<?=get_sub_field('select'); ?>" href="<?= $but["url"]; ?>"><?= $but["title"]; ?></a>
     </div>
-<?php endwhile; endif; ?>
+

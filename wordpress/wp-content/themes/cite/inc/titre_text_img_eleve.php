@@ -1,4 +1,4 @@
-<?php if(have_rows('encart')): while(have_rows('encart')): the_row(); ?>
+
     <div class="vivant">
         <h2 class="main__title vivant__title">
             <?= get_sub_field('titre'); ?>
@@ -7,7 +7,9 @@
             <?= get_sub_field('text'); ?>
 
         </p>
-        <?php $img=get_sub_field('image'); ?>
-        <img src="<?= $img["img"]; ?>" alt="<?= $img['alt']; ?>" class="vivant__img">
+        <?php if(have_rows('image')): while (have_rows('image')): the_row(); ?>
+            <?php $img = get_sub_field('img'); ?>
+            <?= wp_get_attachment_image($img['ID'], 'cite-big',"", ["class" => "vivant__img"]); ?>
+        <?php endwhile; endif; ?>
     </div>
-<?php endwhile; endif; ?>
+

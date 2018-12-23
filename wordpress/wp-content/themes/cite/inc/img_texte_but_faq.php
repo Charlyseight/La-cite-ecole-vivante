@@ -1,7 +1,9 @@
-<?php if(have_rows('encart')): while (have_rows('encart')): the_row(); ?>
+
     <div class="contactEncart__faq">
-        <?php $img=get_sub_field('image'); ?>
-        <img src="<?= $img['img']; ?>" alt="<?= $img['alt']; ?>">
+        <?php if(have_rows('image')): while (have_rows('image')): the_row(); ?>
+            <?php $img = get_sub_field('img'); ?>
+            <?= wp_get_attachment_image($img['ID'], 'cite-big'); ?>
+        <?php endwhile; endif; ?>
         <p class="contactEncart__faq__para">
             <?= get_sub_field('text'); ?>
         </p>
@@ -10,4 +12,3 @@
             <?= $but['label']; ?>
         </a>
     </div>
-<?php endwhile; endif; ?>
