@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2018-12-23 20:20+0100\n"
-"PO-Revision-Date: 2018-12-23 20:22+0100\n"
+"POT-Creation-Date: 2018-12-23 20:50+0100\n"
+"PO-Revision-Date: 2018-12-23 20:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_BE\n"
@@ -16,8 +16,19 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: inc/text.php:2
-msgid "For any questions, do not hesitate to send us a message via this contact form"
-msgstr "Pour toutes questions, n’hésitez pas à nous envoyer un message via ce formulaire de contact"
+msgid ""
+"For any questions, do not hesitate to send us a message via this contact form"
+msgstr ""
+"Pour toutes questions, n’hésitez pas à nous envoyer un message via ce "
+"formulaire de contact"
+
+#: inc/text.php:5
+msgid ""
+"In order for your message to be sent to us, please fill in all the fields "
+"below."
+msgstr ""
+"Pour que votre message nous soit bien transmis, veuillez remplir tous les "
+"champs ci-dessous."
 
 #: inc/text.php:8
 msgid "Name"

@@ -2,7 +2,7 @@
     <?= __('For any questions, do not hesitate to send us a message via this contact form', 'cite'); ?>
 </p>
 <p class="contact__text">
-    Pour que votre message nous soit bien transmis, veuillez remplir tous les champs ci-dessous.
+    <?= __('In order for your message to be sent to us, please fill in all the fields below.', 'cite'); ?>
 </p>
 <form action="#" method="POST" class="contact__form">
     <label for="name" class="contact__form__label"><?= __('Name', 'cite'); ?></label>

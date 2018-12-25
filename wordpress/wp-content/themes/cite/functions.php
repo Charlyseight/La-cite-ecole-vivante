@@ -62,3 +62,33 @@ function cite_register_image_sizes() {
     add_image_size('cite-big', 1232, 822, true);
 }
 add_action('after_setup_theme', 'cite_register_image_sizes');
+
+/*-----------------------------------------------------------------------------------*/
+/* Remove Unwanted Admin Menu Items */
+/*-----------------------------------------------------------------------------------*/
+function remove_admin_menu_items() {
+    $remove_menu_items = array(__('Comments'), __('Posts'), __('Tools'));
+    global $menu;
+    end ($menu);
+    while (prev($menu)){
+        $item = explode(' ',$menu[key($menu)][0]);
+        if(in_array($item[0] != NULL?$item[0]:"" , $remove_menu_items)){
+            unset($menu[key($menu)]);}
+    }
+}
+add_action('admin_menu', 'remove_admin_menu_items');
+
+/*-----------------------------------------------------------------------------------*/
+/* Remove Unwanted Editor Menu Items */
+/*-----------------------------------------------------------------------------------*/
+function remove_editor_menu_items() {
+    $remove_menu_items = array(__('Comments'), __('Posts'), __('Tools'));
+    global $menu;
+    end ($menu);
+    while (prev($menu)){
+        $item = explode(' ',$menu[key($menu)][0]);
+        if(in_array($item[0] != NULL?$item[0]:"" , $remove_menu_items)){
+            unset($menu[key($menu)]);}
+    }
+}
+add_action('editor_menu', 'remove_editor_menu_items');

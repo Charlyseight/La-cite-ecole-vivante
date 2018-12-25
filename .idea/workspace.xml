@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5808c4-fee0-4134-8ff2-618c94d45e4c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/dir.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/dir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/cite-fr_BE.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/cite-fr_BE.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/cite-fr_BE.po" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/languages/themes/cite-fr_BE.po" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_para_text_but.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_para_text_but.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_text_but_projet.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_text_but_projet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_texte_but_faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_texte_but_faq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_texts_but.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_texts_but.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_texts_but_team.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_texts_but_team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/imgs_text_but.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/imgs_text_but.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/mots.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/mots.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/nbr_text.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/nbr_text.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/text.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_img.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_img.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_img_texts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_img_texts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text_img.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text_img.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text_img_eleve.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text_img_eleve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_texts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_texts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/pop.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/pop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/single-teamdir.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/single-teamdir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/single-teampops.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/single-teampops.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/single-teamteachers.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/single-teamteachers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/teacher.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +17,7 @@
     <session id="90595991">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -51,7 +29,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="68" />
+          <entry key="php" value="69" />
           <entry key="po" value="5" />
           <entry key="scss" value="9" />
         </counts>
@@ -59,21 +37,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Locale" value="5" />
-          <entry key="PHP" value="68" />
+          <entry key="PHP" value="69" />
           <entry key="SCSS" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1632" />
-          <entry key="po" value="75" />
+          <entry key="php" value="1691" />
+          <entry key="po" value="79" />
           <entry key="scss" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Locale" value="75" />
-          <entry key="PHP" value="1632" />
+          <entry key="Locale" value="79" />
+          <entry key="PHP" value="1691" />
           <entry key="SCSS" value="70" />
         </counts>
       </usages-collector>
@@ -84,17 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="435">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/languages/themes/cite-fr_BE.po">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="469">
+              <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -143,14 +121,14 @@
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/nbr_text.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/nav_second.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/footer.php" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/functions.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/mots.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text_img.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/imgs_text_but.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_img_texts.php" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/text.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/languages/themes/cite-fr_BE.po" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/text.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/cite/functions.php" />
       </list>
     </option>
   </component>
@@ -275,12 +253,12 @@
       <workItem from="1545326517415" duration="7587000" />
       <workItem from="1545480435731" duration="3074000" />
       <workItem from="1545516524793" duration="1007000" />
-      <workItem from="1545574742538" duration="11101000" />
+      <workItem from="1545574742538" duration="12319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42614000" />
+    <option name="totallyTimeSpent" value="43832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -582,13 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/languages/themes/twentyfifteen-fr_FR.po">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-502" />
@@ -596,8 +560,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/languages/themes/cite-fr_BE.po">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="145">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
         </state>
       </provider>
     </entry>
