@@ -4,10 +4,10 @@
         </h2>
         <?php if(have_rows('image')): while (have_rows('image')): the_row(); ?>
         <?php $img=get_sub_field('img'); ?>
-        <?= wp_get_attachment_image($img['ID'], 'cite-big'); ?>
+        <?= wp_get_attachment_image($img['ID'], 'cite-big',"", ["class" => "imgActionEleve"]); ?>
         <?php endwhile; endif; ?>
         <!--<img src="<?/*= $img['img']; */?>" alt="<?/*= $img['alt']; */?>" class="action__img">-->
-        <div class="action__text">
+        <div class="action__text action__write">
             <?php if(have_rows('para')): while(have_rows('para')): the_row(); ?>
                 <p class="action__para">
                 <?= get_sub_field('text'); ?>

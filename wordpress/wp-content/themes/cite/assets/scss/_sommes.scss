@@ -34,7 +34,7 @@
   color: black;
   font-weight: 400;
   letter-spacing: 0px;
-  margin-left: 8.5em;
+  margin: $marginTitleUpDown 8.5em ;
 }
 
 .teacher__img{
@@ -75,8 +75,7 @@
 }
 
 .pop__title{
-  margin-left: 8.5em;
-  margin-top: 7em;
+  margin: $marginTitleUpDown 8.5em;
   color: black;
   letter-spacing: 0;
   font-weight: 400;
@@ -87,7 +86,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  margin: 0em 14.5em;
+  margin: 0em 17.5em 0em 14.5em;
 }
 
 .pop__img{
@@ -130,7 +129,7 @@
   color: black;
   letter-spacing: 0;
   font-weight: 400;
-  margin-left: 8.5em;
+  margin: $marginTitleUpDown 8.5em;
 }
 
 .dir__para{
@@ -169,12 +168,13 @@
 
 .recruteEncart__sommes__img{
   position: relative;
-  left: 700px;
+  left: 820px;
 }
 
 .recruteEncart__sommes{
   position: relative;
-  margin-bottom: 10em;
+  margin-bottom: 15em;
+
 }
 
 .recruteEncart__sommes__title{
@@ -183,7 +183,7 @@
   font-weight: 600;
   position: absolute;
   top: 80px;
-  left: 230px;
+  left: 320px;
 }
 
 .recruteEncart__sommes__para{
@@ -192,13 +192,13 @@
   width: 30%;
   position: absolute;
   top: 220px;
-  left: 230px;
+  left: 320px;
 }
 
 .recruteEncart__sommes__link{
   position: relative;
   bottom: 70px;
-  right: 75px;
+  right: -20px;
 }
 
 .single_img{

@@ -1,6 +1,6 @@
 <?php
 
-register_nav_menu('main-menu', 'main navigation', 'cite');
+register_nav_menu('main-menu', 'main navigation');
 
 function assets($path){
     return get_template_directory_uri() . '/' . trim($path, '/');
@@ -92,3 +92,101 @@ function remove_editor_menu_items() {
     }
 }
 add_action('editor_menu', 'remove_editor_menu_items');
+
+/*-----------------------------------------------------------------------------------*/
+/* get back item menu wp */
+/*-----------------------------------------------------------------------------------*/
+
+/*
+* Get Navigation ID from given Location
+*/
+function cite_get_nav_id($location){
+    foreach (get_nav_menu_locations() as $navLocation => $navId) {
+        if($navLocation == $location) return $navId;
+    }
+    //arreter l'execution
+    return false;
+}
+
+function cite_get_nav_items($location){
+    $id = cite_get_nav_id($location);
+    $children = [];
+    $nav = [];
+    if (!$id) return $nav;
+    //recuperer les items du menu $location
+    $items = wp_get_nav_menu_items($id);
+    // Boucler dedans
+    foreach ($items as $object) {
+        // creer un objet (stdClass)
+        $item = new stdClass();
+        // assigner les propriétés url & label a cet objet
+        $item->url = $object->url;
+        $item->label = $object->title;
+        $item->parent = intval($object->menu_item_parent);
+        $item->icon = $object->classes[0];
+        $item->children = [];
+        if ($item->parent) {
+            $children[] = $item;
+        }else{
+            // pousser cet objet dans un tableau
+            $nav[$object->ID] = $item;
+        }
+    }
+    foreach ($children as $item) {
+        $nav[$item->parent]->children[] = $item;
+    }
+    //retourne ce tableau
+    return $nav;
+}
+
+
+// add hook
+//add_filter( 'wp_nav_menu_objects', 'my_wp_nav_menu_objects_sub_menu', 10, 2 );
+// filter_hook function to react on sub_menu flag
+/*function my_wp_nav_menu_objects_sub_menu( $sorted_menu_items, $args ) {
+    if ( isset( $args->sub_menu ) ) {
+        $root_id = 0;
+
+        // find the current menu item
+        foreach ( $sorted_menu_items as $menu_item ) {
+            if ( $menu_item->current ) {
+                // set the root id based on whether the current menu item has a parent or not
+                $root_id = ( $menu_item->menu_item_parent ) ? $menu_item->menu_item_parent : $menu_item->ID;
+                break;
+            }
+        }
+
+        // find the top level parent
+        if ( ! isset( $args->direct_parent ) ) {
+            $prev_root_id = $root_id;
+            while ( $prev_root_id != 0 ) {
+                foreach ( $sorted_menu_items as $menu_item ) {
+                    if ( $menu_item->ID == $prev_root_id ) {
+                        $prev_root_id = $menu_item->menu_item_parent;
+                        // don't set the root_id to 0 if we've reached the top of the menu
+                        if ( $prev_root_id != 0 ) $root_id = $menu_item->menu_item_parent;
+                        break;
+                    }
+                }
+            }
+        }
+        $menu_item_parents = array();
+        foreach ( $sorted_menu_items as $key => $item ) {
+            // init menu_item_parents
+            if ( $item->ID == $root_id ) $menu_item_parents[] = $item->ID;
+            if ( in_array( $item->menu_item_parent, $menu_item_parents ) ) {
+                // part of sub-tree: keep!
+                $menu_item_parents[] = $item->ID;
+            } else if ( ! ( isset( $args->show_parent ) && in_array( $item->ID, $menu_item_parents ) ) ) {
+                // not part of sub-tree: away with it!
+                unset( $sorted_menu_items[$key] );
+            }
+        }
+
+        return $sorted_menu_items;
+    } else {
+        return $sorted_menu_items;
+    }
+}*/
+
+

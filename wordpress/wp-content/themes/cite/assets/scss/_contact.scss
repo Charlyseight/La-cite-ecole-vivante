@@ -61,6 +61,8 @@
 
 input[type=submit]{
   font-size: 1.4em;
+  padding: .8em;
+  cursor: pointer;
   text-decoration: none;
   outline: 0;
   font-weight: 200;
@@ -68,12 +70,18 @@ input[type=submit]{
   border: 1px solid $rouge
 }
 
+input[type=submit]:hover{
+  background-color: $rouge;
+  color: $pink;
+  transition: 0.2s ease;
+}
+
 //COORDONNEES
 
 .coordonnees{
   display: flex;
   text-align: center;
-  margin: 10em 0em;
+  margin: 15em 0em;
   justify-content: space-around;
 }
 
@@ -126,6 +134,7 @@ input[type=submit]{
 
 .projetEncart__contact{
   text-align: center;
+  margin-bottom: 10em;
 }
 
 .projetEncart__contact__para{
@@ -137,6 +146,24 @@ input[type=submit]{
 
 .projetEncart__contact__link{
   margin: .5em 0em 5em;
+}
+
+.wpcf7-form-control{
+  width: 100%;
+  padding: .5em;
+  font-size: 1.4em;
+  margin: .5em 0em .8em 0;
+}
+
+ .wpcf7-submit{
+  width: 104%;
+}
+
+div.wpcf7-response-output{
+  font-size: 1.4em;
+}
+label{
+  font-size: 1.5em;;
 }
 
 

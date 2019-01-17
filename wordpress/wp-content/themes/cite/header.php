@@ -19,10 +19,18 @@
         <a href="index.php">
             <img src="<?= assets("assets/image/logo.png"); ?>" alt="Aller sur la page d'accueil" class="header__logo">
         </a>
-        <?php
-            get_template_part('nav');
-        ?>
-        <?php if(have_rows('images')): while(have_rows('images')): the_row(); ?>
+        <!--<div>
+            <?php /*foreach (cite_get_nav_items('main-menu') as $item): */?>
+                <a href="<?/*= $item->url;*/?>" class="menu-item"><?/*= $item->label;*/?></a>
+                <?php /*foreach ($item->children as $child): */?>
+                    <a href="<?/*= $child->url; */?>"><?/*= $child->label; */?></a>
+                <?php /*endforeach; */?>
+            <?php /*endforeach; */?>
+        </div>-->
+            <?php get_template_part('nav'); ?>
+
+
+            <?php if(have_rows('images')): while(have_rows('images')): the_row(); ?>
         <?php $img=get_sub_field('image'); ?>
             <div class="caroussel">
                 <img src="<?= $img['img'];?>" alt="<?= $img['alt']; ?>" class="caroussel__img">

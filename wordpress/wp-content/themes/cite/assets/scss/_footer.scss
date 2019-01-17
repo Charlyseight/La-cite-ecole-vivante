@@ -1,19 +1,20 @@
 .footer{
   background-color: $kaki;
-  position: relative;
-
+  position: fixed;
+  left: 0;
+  bottom : 0px;
+  width: 100%;
 }
 
-.footer__logo{
+/*.footer__logo{
   opacity: .1;
   display: block;
   margin: 0 auto;
   padding: 3em 0em 0em 0em;
-  width: 28%;
+  //width: 8%;
+}*/
 
-}
-
-.navSecond__title{
+/*.navSecond__title{
   font-size: 1.8em;
   //font-family: $fontbis;
   color: white;
@@ -21,9 +22,9 @@
   letter-spacing: 1.3px;
   margin-bottom: 1.5em;
   font-weight: 100;
-}
+}*/
 
-.navSecond__list{
+/*.navSecond__list{
   position: absolute;
   top: 45%;
   left: 50%;
@@ -31,17 +32,17 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-}
+}*/
 
 
-.navSecond__link{
+/*.navSecond__link{
   color: white;
   font-size: 1.4em;
   margin-bottom: 1em;
   display: flex;
   padding: .8em 0em;
   font-weight: 100;
-}
+}*/
 
 .footer_coordonnes{
   display: flex;
@@ -49,13 +50,11 @@
 }
 
 .footer__link, .footer__address{
-  margin: 1em 0em 1.8em 0em;
   color: white;
   font-size: 1.4em;
-  padding: 1em 0em;
-  font-weight: 100;
-  /*position: relative;
-  bottom: 30px;*/
+  padding: 2em 0em;
+  letter-spacing: 0.5px;
+  font-family: $fontbis;
 }
 
 

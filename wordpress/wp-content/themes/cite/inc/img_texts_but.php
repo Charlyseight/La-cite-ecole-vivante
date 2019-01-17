@@ -9,12 +9,14 @@
                         <?php $img = get_sub_field('img'); ?>
                         <?= wp_get_attachment_image($img['ID'], 'cite-big',"", ["class" => "eventEncart__accueil__img"]); ?>
                     <?php endwhile; endif; ?>
-                    <span class="eventEncart__accueil__date"><time
-                                datetime="2019-04-22"><?= get_sub_field("text"); ?></time></span>
-                    <span class="eventEncart__accueil__endroit"><?= get_sub_field("text_2"); ?></span>
-                    <?php if (have_rows('para')): while (have_rows('para')): the_row(); ?>
-                        <p class="eventEncart__accueil__para"><?= get_sub_field('texts'); ?></p>
-                    <?php endwhile; endif; ?>
+                    <div class="eventEncart__info">
+                        <span class="eventEncart__accueil__date"><time
+                                    datetime="2019-04-22"><?= get_sub_field("text"); ?></time></span>
+                        <span class="eventEncart__accueil__endroit"><?= get_sub_field("text_2"); ?></span>
+                        <?php if (have_rows('para')): while (have_rows('para')): the_row(); ?>
+                            <p class="eventEncart__accueil__para"><?= get_sub_field('texts'); ?></p>
+                        <?php endwhile; endif; ?>
+                    </div>
                 </div>
             <?php endwhile; endif; ?>
         </div>

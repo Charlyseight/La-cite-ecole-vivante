@@ -1,5 +1,5 @@
     <footer class="footer">
-        <img src="<?= assets("assets/image/logofili.png"); ?>" alt="Logo de l'école secondaire 'La cité, école vivante'" class="footer__logo">
+        <!--<img src="<?/*= assets("assets/image/logofili.png"); */?>" alt="Logo de l'école secondaire 'La cité, école vivante'" class="footer__logo">-->
         <h2 class="hidden">
             Navigation secondaire
         </h2>
