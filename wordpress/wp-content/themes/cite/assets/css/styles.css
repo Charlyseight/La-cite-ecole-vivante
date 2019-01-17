@@ -611,8 +611,14 @@ header {
 }
 
 .recruteEncart__sommes__img {
-  position: relative;
-  left: 820px;
+  /*position: relative;
+  !*left: 820px;*!*/
+  float: right;
+  margin-right: 35em;
+}
+
+.recruteEncartClear {
+  clear: right;
 }
 
 .recruteEncart__sommes {
@@ -640,8 +646,8 @@ header {
 
 .recruteEncart__sommes__link {
   position: relative;
-  bottom: 70px;
-  right: -20px;
+  top: 350px;
+  left: 320px;
 }
 
 .single_img {
@@ -1085,6 +1091,14 @@ label {
   .vivant__title {
     left: 220px;
   }
+
+  .recruteEncart__sommes {
+    margin: 0em 10em 15em 10em;
+  }
+
+  .recruteEncart__sommes__img {
+    margin-right: 0em;
+  }
 }
 @media (max-width: 1200px) {
   .eventEncart__accueil {
@@ -1130,6 +1144,14 @@ label {
   .vivant__img {
     margin-right: 20em;
   }
+
+  .recruteEncart__sommes__title, .recruteEncart__sommes__para, .recruteEncart__sommes__link {
+    left: 220px;
+  }
+
+  .recruteEncart__sommes__link {
+    top: 380px;
+  }
 }
 @media (max-width: 1000px) {
   .encartText__accueil__projet {
@@ -1167,6 +1189,19 @@ label {
   .vivant__title {
     left: 180px;
   }
+
+  .pop__people {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teacher__title, .dir__title, .pop__title {
+    margin: 3em 0em 3em 19em;
+  }
+
+  .teacher__title:before, .dir__title:before, .pop__title:before {
+    width: 3%;
+  }
 }
 @media (max-width: 920px) {
   .vivant__text {
@@ -1180,10 +1215,39 @@ label {
   .vivant__img {
     margin-right: 15em;
   }
+
+  .recruteEncart__sommes__title, .recruteEncart__sommes__para, .recruteEncart__sommes__link {
+    left: 120px;
+  }
+
+  /*  .recruteEncart__sommes__link{
+      top: 380px;
+    }*/
 }
 @media (max-width: 850px) {
   .partner__content {
     margin: 0em 10em;
+  }
+
+  .recruteEncart__sommes__title, .recruteEncart__sommes__para, .recruteEncart__sommes__link {
+    left: 20px;
+  }
+
+  .recruteEncart__sommes__link {
+    top: 450px;
+  }
+
+  .recruteEncart__sommes {
+    margin-bottom: 20em;
+  }
+
+  .recruteEncart__sommes__img {
+    margin-top: 10em;
+  }
+
+  .contactEncart__img {
+    width: 80%;
+    height: auto;
   }
 }
 @media (max-width: 800px) {
@@ -1202,6 +1266,33 @@ label {
 
   .footer__link:last-child {
     padding: 0.5em 0em 2em 0em;
+  }
+}
+@media (max-width: 770px) {
+  .recruteEncart__sommes__img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .recruteEncart__sommes {
+    margin-bottom: 50em;
+  }
+
+  .recruteEncart__sommes__title {
+    top: 420px;
+    left: 130px;
+  }
+
+  .recruteEncart__sommes__para {
+    top: 570px;
+    left: 130px;
+    width: 55%;
+  }
+
+  .recruteEncart__sommes__link {
+    top: 280px;
+    left: 130px;
   }
 }
 @media (max-width: 700px) {
@@ -1253,7 +1344,11 @@ label {
   }
 
   .encart__accueil__projet {
-    margin: 8em 0em;
+    margin: 8em 0em 20em 0em;
+  }
+
+  .encartLink__accueil__projet {
+    bottom: 50px;
   }
 
   .eventEncart__accueil__img {
@@ -1318,6 +1413,120 @@ label {
   .contactEncart__vivant__para {
     font-size: 1.5em;
     line-height: 1.8;
+  }
+
+  .cat {
+    font-size: 2.5em;
+  }
+
+  .page {
+    font-size: 1.8em;
+  }
+
+  .projet__title:before {
+    width: 5%;
+  }
+
+  .projet__title {
+    margin: 3em 0em 3em 2em;
+  }
+
+  .sommes__text {
+    width: 80%;
+    margin: 3em 0em 3em 3em;
+  }
+
+  .sommes__title:before {
+    width: 15px;
+  }
+
+  .sommes__title {
+    margin-left: 3.5em;
+  }
+
+  .teacher__title, .dir__title, .pop__title {
+    margin-left: 3em;
+    font-size: 1.6em;
+  }
+
+  .teacher__title:before, .dir__title:before, .pop__title:before {
+    width: 5%;
+  }
+
+  .recruteEncart__sommes__img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .recruteEncart__sommes__title {
+    top: 280px;
+    width: 100%;
+    left: 10px;
+  }
+
+  .recruteEncart__sommes__para {
+    top: 440px;
+    width: 100%;
+    left: 10px;
+  }
+
+  .recruteEncart__sommes__link {
+    top: 350px;
+    left: 10px;
+  }
+
+  .recruteEncart__sommes {
+    margin-bottom: 60em;
+  }
+
+  .contact__form {
+    width: 70%;
+  }
+
+  .wpcf7-form-control {
+    font-size: 1em;
+  }
+
+  .coordonnees {
+    margin: 10em 0em;
+  }
+
+  .projetEncart__contact__img {
+    display: none;
+  }
+
+  .projetEncart__contact__para {
+    font-size: 1.6em;
+    width: 80%;
+  }
+
+  .projetEncart__contact {
+    margin-bottom: 18em;
+  }
+
+  .contactEncart__faq__para {
+    font-size: 1.6em;
+    line-height: 1.8;
+    width: 80%;
+    margin-top: 3em;
+  }
+
+  .faq__title {
+    margin-top: 6em;
+  }
+
+  .faq {
+    width: 80%;
+    margin: 4em auto;
+  }
+
+  .faq__title {
+    margin-left: 3em;
+  }
+
+  .faq__title:before {
+    width: 5%;
   }
 }
 

@@ -13,6 +13,9 @@
             <?= wp_get_attachment_image($img['ID'], 'cite-big',"", ["class" => "recruteEncart__sommes__img"]); ?>
         <?php endwhile; endif; ?>
         <?php $but=get_sub_field('button'); ?>
-        <a href="<?= $but["url"]; ?>" class="button recruteEncart__sommes__link"><?= $but["title"]; ?></a>
+        <a href="<?= $but["url"]; ?>" class="button recruteEncart__sommes__link">
+            <?= $but["title"]; ?>
+        </a>
+        <div class="recruteEncartClear"></div>
     </div>
 
