@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e5808c4-fee0-4134-8ff2-618c94d45e4c" name="Default" comment="Css done + responsive v.1">
+    <list default="true" id="3e5808c4-fee0-4134-8ff2-618c94d45e4c" name="Default" comment="Css done + responsive v.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/scss/_sommes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/scss/_sommes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_texte_but_faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/img_texte_but_faq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text_img.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/inc/titre_text_img.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/cite/nav.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +57,8 @@
           <entry key="css" value="1" />
           <entry key="php" value="2572" />
           <entry key="po" value="79" />
-          <entry key="scss" value="6849" />
-          <entry key="txt" value="26" />
+          <entry key="scss" value="7042" />
+          <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -70,8 +66,8 @@
           <entry key="CSS" value="1" />
           <entry key="Locale" value="79" />
           <entry key="PHP" value="2572" />
-          <entry key="PLAIN_TEXT" value="26" />
-          <entry key="SCSS" value="6849" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="SCSS" value="7042" />
         </counts>
       </usages-collector>
     </session>
@@ -81,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/scss/_responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="240" column="3" lean-forward="true" selection-start-line="240" selection-start-column="3" selection-end-line="240" selection-end-column="3" />
+            <state relative-caret-position="362">
+              <caret line="413" column="3" lean-forward="true" selection-start-line="413" selection-start-column="3" selection-end-line="413" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -348,7 +344,7 @@
       <workItem from="1547655236433" duration="4729000" />
       <workItem from="1547669397089" duration="2204000" />
       <workItem from="1547680130583" duration="3629000" />
-      <workItem from="1547716989418" duration="16332000" />
+      <workItem from="1547716989418" duration="17679000" />
     </task>
     <task id="LOCAL-00001" summary="Css done + responsive v.1">
       <created>1547729414148</created>
@@ -357,11 +353,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547729414148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Css done + responsive v.2">
+      <created>1547737596074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547737596074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99239000" />
+    <option name="totallyTimeSpent" value="100586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +379,7 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33619457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33619457" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,7 +408,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Css done + responsive v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Css done + responsive v.1" />
+    <MESSAGE value="Css done + responsive v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Css done + responsive v.2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/teacher.php">
@@ -726,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/cite/assets/scss/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="240" column="3" lean-forward="true" selection-start-line="240" selection-start-column="3" selection-end-line="240" selection-end-column="3" />
+        <state relative-caret-position="362">
+          <caret line="413" column="3" lean-forward="true" selection-start-line="413" selection-start-column="3" selection-end-line="413" selection-end-column="3" />
         </state>
       </provider>
     </entry>

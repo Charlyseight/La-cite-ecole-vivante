@@ -1528,6 +1528,22 @@ label {
   .faq__title:before {
     width: 5%;
   }
+
+  .single_img {
+    float: none;
+    margin: 5em 0em 3em 5em;
+  }
+
+  .single_nom {
+    margin-left: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+  }
+
+  .single_text {
+    text-align: center;
+    margin: 0em auto 15em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
