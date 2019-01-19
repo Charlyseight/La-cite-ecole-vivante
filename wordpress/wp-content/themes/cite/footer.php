@@ -1,4 +1,5 @@
-    <footer class="footer">
+
+<footer class="footer">
         <!--<img src="<?/*= assets("assets/image/logofili.png"); */?>" alt="Logo de l'école secondaire 'La cité, école vivante'" class="footer__logo">-->
         <h2 class="hidden">
             Navigation secondaire
@@ -19,5 +20,15 @@
             <meta itemprop="telephone" content="<?= get_field('lien_3'); ?>">
         </div>
     </footer>
+<script>
+    function myFunction() {
+        const x = document.getElementById("myResMenu");
+        if (x.className === "resMenu") {
+            x.className += " responsive";
+        } else {
+            x.className = "resMenu";
+        }
+    }
+</script>
 </body>
 </html>

@@ -70,6 +70,11 @@ input[type=submit]{
   border: 1px solid $rouge
 }
 
+.wpcf7-form-control{
+  border : 1px solid black;
+
+}
+
 input[type=submit]:hover{
   background-color: $rouge;
   color: $pink;
@@ -128,6 +133,7 @@ input[type=submit]:hover{
 
 .projetEncart__contact__img{
   width: 20%;
+  height: auto;
   float: left;
   margin-bottom: 8em;
 }
